@@ -3,7 +3,7 @@ import { Metadata } from "next";
 // import { notFound } from "next/navigation";
 
 export const metadata: Metadata = {
-  title: "Favoritos",
+  title: "Favorites Page",
   description: "Mis pokémons favoritos",
 };
 

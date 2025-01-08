@@ -1,5 +1,11 @@
+import { Metadata } from "next";
 import { PokemonsResponse, SimplePokemon, PokemonsGrid } from "@/pokemons";
 // import { notFound } from "next/navigation";
+
+export const metadata: Metadata = {
+  title: "Pokémons Page",
+  description: "Listado de Pokémons de la primera generación",
+};
 
 const getPokemons = async (
   limit: number = 10,
