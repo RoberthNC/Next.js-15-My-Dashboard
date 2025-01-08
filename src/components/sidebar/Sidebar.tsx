@@ -24,8 +24,8 @@ const menuItems = [
   {
     icon: <IoFootball size={40} />,
     path: "/dashboard/pokemons",
-    subtitle: "Pokémons",
-    title: "Generación Estática",
+    subtitle: "Generación Estática",
+    title: "Pokémons",
   },
   {
     icon: <IoHeartOutline size={40} />,
